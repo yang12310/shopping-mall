@@ -1,0 +1,59 @@
+
+@font-face {
+  font-family: 'Pretendard-Regular';
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: local('Pretendard-Regular.woff'),
+    url('./fonts/Pretendard-Regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-Medium';
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: local('Pretendard-Medium.woff'),
+    url('./fonts/Pretendard-Medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-SemiBold';
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: local('Pretendard-SemiBold.woff'),
+    url('./fonts/Pretendard-SemiBold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-Bold';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: local('Pretendard-Bold.woff'),
+    url('./fonts/Pretendard-Bold.woff') format('woff');
+}
+@font-face {
+  font-family: 'Pretendard-ExtraBold';
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+  src: local('Pretendard-ExtraBold.woff'),
+    url('./fonts/Pretendard-ExtraBold.woff') format('woff');
+}
+
+html,
+body,
+#root,
+.app {
+  margin:0px;
+  height: 100%;
+  width: 100%;
+  font-family: 'Pretendard-Regular', sans-serif;
+  background:#F9F8FD;
+  word-break: keep-all;
+}
+.container{}
+.outlinebox{margin-top:150px;}
+@media (max-width:560px) {
+  .container{padding:0px !important;}
+}
+
